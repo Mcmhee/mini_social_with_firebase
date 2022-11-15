@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  width: 100%;
+  height: 100vh;
+  color: white
+
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  background-color: bisque;
+  justify-content: space-between;
+  align-items: center;
+ padding-left: 30px;
+ padding-right: 30px;
+}
+
+.userDetails{
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.userDetails img {
+  height: 30px;
+  width: 30px;
+  border-radius: 30px;
+  margin-right: 10px;
+}
+.userDetails button 
+{
+  border-radius: 5px;
+  margin-left: 10px;
+  padding: 10px;
+  border: none;
+
+}
+
+.userDetails button :hover{
+cursor: pointer;
+opacity: 0.5;  
+}
+
+
+.userDetails p {
+  color: black;
+  font-size: large;
+}
+
+.links {
+  text-decoration: none;
+  color: darkslategray;
+  border-bottom: 3px solid black;
+  padding-bottom: 2px;
+  margin: 10px;
+}
+
+

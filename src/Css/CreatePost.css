@@ -1,0 +1,37 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.form textarea {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 200px;
+    font-size: 18px;
+    text-decoration: none;
+}
+.form div {
+    display: flex;
+    justify-content: end;
+}
+
+.form input {
+    width: 90px;
+    height: 40px; 
+    border-radius: 10px;
+    border: none;
+    background-color: darkgray;
+    color: aliceblue;
+}
+
+.form input:hover {
+   cursor: pointer;
+   opacity: 0.5;
+   border: none;
+}
+
+h1 {
+    margin: 20px;
+     
+}
